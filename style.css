@@ -1,0 +1,368 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.left {
+    width: 20%;
+    background-color: grey;
+    position: fixed;
+    height: 100%;
+}
+.right {
+    width: 80%;
+    background-color: pink;
+    margin-left: 20%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right img {
+    width: 100%;
+
+}
+.right p {
+    color: white;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    z-index: 1;
+    position: absolute;
+    width: 80%;
+    bottom: 40%; 
+    left: 10%; 
+    margin: 0;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.left img{
+    margin-right: 5px;
+    margin-top: 20px;
+    width: 100%;
+}
+.right h1{
+    margin: 0;
+    color: white;
+    padding: 10px;
+    z-index: 1;
+    text-align: center;
+    position: absolute;
+    width: 80%;
+}
+.right button{
+    color: white;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    z-index: 1;
+    position: absolute;
+    width: auto;
+    bottom: 30%; 
+    left: 45%; 
+    margin: 0;
+    text-align: center;
+    background-color: rgb(21, 148, 221);
+}
+.add {
+    width: 80%;
+    background-color: white;
+    margin-left: 20%;
+    padding: 20px 0;
+    position: relative;
+    text-align: center;
+}
+.add h2 {
+    margin-bottom: 10px;
+    color: rgb(38, 171, 238);
+}
+.add p {
+    color: black;
+    margin: 0;
+    padding-top: 10px;
+}
+.row {
+    display: flex;
+    flex-direction: column; 
+    gap: 0; 
+    margin-top: 10px;
+}
+
+.row div {
+    text-align: center; 
+    background-color: rgb(240, 222, 222); 
+    padding: 10px; 
+    border-radius: 3px; 
+    cursor: pointer; 
+}
+
+.row div:hover {
+    background-color: lightgray; 
+    color: blue;
+}
+.fulid{
+    width: 100%;
+    background-color: white;
+}
+.box{
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+}
+.add hr{
+    height: 5px;
+    background-color: orange; 
+    border: none;
+    margin: 0 0;
+    margin-top: 20px;
+}
+.add table{
+    width: 20%;
+    background-color: orange;
+    border: none;
+    height: 30px;
+    color: white;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.about div{
+    text-align: center;
+}
+
+.about img{
+    width: 100%;
+    height: auto;
+    
+}
+.about h3{
+    margin-top: 20px;
+    font-size: 16px;
+    color: orange;
+}
+.our {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.our h3{
+    color: orange;
+}
+.our div {
+    flex: 1;
+    text-align: left;
+}
+.our img {
+    width: 40%; 
+    height: auto;
+    margin-left: 20px; 
+}
+.services{
+    color: purple;
+}
+.services hr{
+    background-color: purple;
+}
+.services table{
+    background-color: purple;
+}
+.table .hel {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: separate;
+    border-spacing: 60px; 
+    background-color: white;
+}
+.hel td {
+    background-color: purple;
+    color: white; 
+    padding:10px 120px;
+    border-radius: 0; 
+    text-align: center;
+    width: 100%;
+}
+.second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.second .text-content {
+    flex: 1;
+    text-align: left;
+}
+.second img {
+    width: 40%; 
+    height: auto;
+    margin-left: 20px;
+}
+.second h3 {
+    color: purple;
+}
+.second p {
+    margin-top: 10px;
+}
+.third{
+    color: rgb(27, 216, 233);
+}
+.third hr{
+    background-color: rgb(27, 216, 233);
+}
+.third table{
+    background-color: rgb(27, 216, 233);
+}
+.port{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.port div{
+    text-align: center;
+}
+.port img{
+    width: 100%;
+    height: auto;
+}
+.port h3{
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgb(27, 216, 233);
+}
+.contact{
+    color: rgb(223, 19, 185);
+}
+.contact hr{
+    background-color: rgb(223, 19, 185);
+}
+.contact table{
+    background-color: rgb(223, 19, 185);
+}
+.cont{
+    margin: 20px 10px;
+}
+.cont img{
+    height: 100%;
+    width: 100%;
+}
+.message-input {
+    margin-top: 20px;
+    width: 800px; 
+    padding: 50px; 
+    font-size: 20px; 
+}
+.last {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Arrange icons and footer in a column */
+    padding: 20px 0; /* Add some padding */
+}
+
+.last li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.last li a {
+    color: white;
+    font-size: 24px; /* Adjust icon size if needed */
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.skills{
+    width: 400px;
+    margin: 60px auto;
+    color: purple;
+    padding: 20px;
+    
+}
+.skills li{
+    margin: 20px 0;
+    padding: 10px;
+}
+.bar{
+    background-color: white;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    
+    transition:all 0.3s cubic-bezier(.25,.8,.25,.1);
+}
+.bar:hover{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg,rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
+}
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+.css{
+    width: 75%;
+    animation: css 3s;
+}
+.python{
+    width: 65%;
+    animation: python 3s;
+}
+.javascript{
+    width: 88%;
+    animation: javascript 3s;
+}
+@keyframes html{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 65%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 88%;
+    }
+}
